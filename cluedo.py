@@ -1,13 +1,12 @@
-#Questions
-gender = ('What is your gender? ')
-age = ('How old are you? ')
-length = ('how tall are you? ')
-haircolor = ('what is your haircolor? ')
-weight = ('What is your weight? ')
+gender = input('What is your gender? ')
+if gender == 'male':
+    print('gay')
+    age = input('How old are you? ')
+    if age == '25': 
+        print('ur mum gay')
 
-#Setup
-print('Welcome to the online interview. \nAfter this test we can see if you are qualified!\n \nGoodLuck\n')
+elif gender == 'female':
+    print('lesbian')
 
-gender = input(gender)
 
 
